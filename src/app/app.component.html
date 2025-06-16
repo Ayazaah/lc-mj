@@ -1,27 +1,30 @@
 <header class="hero">
   <nav class="navbar">
-    <!--Logo pour retourner à l'accueil-->
-    <a routerLink="/" class="logo">
+    
+    <a href="/" class="logo">
         <img src="assets/logo.jpg" alt="Logo" />
     </a>
 
-    <!--Menu de nav du milieu-->
+  
     <ul class="nav-links">
-      <li><a routerLink="/">Accueil</a></li>
-      <li><a routerLink="/reglement">Règlement</a></li>
+      <li><a href="/">Accueil</a></li>
+      <li><a href="/reglement">Règlement</a></li>
       <li class="dropdown">
         <span class="dropbtn">Services ▾</span>
             <div class="dropdown-content">
-                <a routerLink="/catalogue">Catalogue</a>
-                <a routerLink="/ppa">Permis de port d'armes</a>
-                <a routerLink="/standDeTir">Stand de Tir</a>
+                <a href="/catalogue">Catalogue</a>
+                <a href="/ppa">Permis de port d'armes</a>
+                <a href="/standDeTir">Stand de Tir</a>
             </div>
         </li>
-      <li><a routerLink="/about">Notre histoire</a></li>
+      <li><a href="/about">Notre histoire</a></li>
     </ul>
 
-    <!--Bouton de nav vers la page de contact-->
-    <button class="contact-btn" routerLink="/contact" >Nous contacter</button>
+    <a class="contact-btn" href="/contact" >Nous contacter</a>
   </nav>
 </header>
-<router-outlet></router-outlet>
+
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+

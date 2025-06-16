@@ -12,9 +12,9 @@ export const routes: Routes = [
     { path: 'about', component: AboutPageComponent},
     { path: 'catalogue', component: CataloguePageComponent},
     { path: 'ppa', component: PpaPageComponent},
-    { path: '/standDeTir', component: SdTirPageComponent},
-    { path: '/contact', component: ContactPageComponent},
-    { path: '/reglement', component: ReglementPageComponent},
+    { path: 'standDeTir', component: SdTirPageComponent},
+    { path: 'contact', component: ContactPageComponent},
+    { path: 'reglement', component: ReglementPageComponent},
     { path: '', redirectTo: 'home', pathMatch: 'full' },
 ];
   
