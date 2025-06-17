@@ -1,8 +1,42 @@
-footer {
-      background-color: #660000;
-      color: white;
-      text-align: center;
-      padding: 1rem 0;
-      font-size: 14px;
-      box-shadow: 0 -2px 10px rgba(0,0,0,0.4);
-    }
+.reglement-wrapper {
+  padding: 25px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.reglement-container {
+  background-color: #f2f2f2;
+  color: #111;
+  max-width: 800px;
+  width: 100%;
+  padding: 2rem 3rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.reglement-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #800000;
+  text-align: center;
+  margin-top: -3px;
+
+}
+
+.reglement-container p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.content-separator {
+  margin: 40px 0;
+  height: 2px;
+  background-color: #ccc;
+  width: 100%;
+  border: none;
+}
+
+.sanctions{
+  text-align: center;
+}
