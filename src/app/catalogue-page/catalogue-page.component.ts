@@ -20,91 +20,91 @@ export class CataloguePageComponent {
     {
       id: 1,
       nom: 'Mégaphone',
-      image: '/assets/logo.jpg',
+      image: '/assets/megaphone.png',
       prix: 3500
     },
     {
       id: 2,
       nom: 'Queue de billard',
-      image: '/assets/logo.jpg',
+      image: '/assets/billard.png',
       prix: 3800
     },
     {
       id: 3,
       nom: 'Clé anglaise',
-      image: '/assets/logo.jpg',
+      image: '/assets/cle.png',
       prix: 3900
     },
     {
       id: 4,
       nom: 'Batte de baseball',
-      image: '/assets/logo.jpg',
+      image: '/assets/batte.png',
       prix: 4000
     },
     {
       id: 5,
       nom: 'Marteau',
-      image: '/assets/logo.jpg',
+      image: '/assets/marteau.png',
       prix: 4200
     },
     {
       id: 6,
       nom: "Couteau à cran d'arrêt",
-      image: '/assets/logo.jpg',
+      image: '/assets/cran.png',
       prix: 6200
     },
     {
       id: 7,
       nom: 'Club de golf',
-      image: '/assets/logo.jpg',
+      image: '/assets/golf.png',
       prix: 7100
     },
     {
       id: 8,
       nom: "Feu d'artifice",
-      image: '/assets/logo.jpg',
+      image: '/assets/feu.png',
       prix: 10000
     },
     {
       id: 9,
       nom: 'Parachute',
-      image: '/assets/logo.jpg',
+      image: '/assets/parachute.png',
       prix: 10200
     },
     {
       id: 10,
       nom: 'Pioche',
-      image: '/assets/logo.jpg',
+      image: '/assets/pioche.png',
       prix: 15000
     },
     {
       id: 11,
       nom: 'Pioche en pierre',
-      image: '/assets/logo.jpg',
+      image: '/assets/pioche.png',
       prix: 15000
     },
     {
       id: 12,
       nom: 'Dague antique',
-      image: '/assets/logo.jpg',
+      image: '/assets/dague.png',
       prix: 15000
     },
     {
       id: 13,
       nom: 'Katana',
-      image: '/assets/logo.jpg',
+      image: '/assets/katana.png',
       prix: 16000
     },
     {
       id: 14,
       nom: 'Boîte de munitions',
-      image: '/assets/logo.jpg',
+      image: '/assets/munition.png',
       prix: 500
     },
     {
       id: 15,
       nom: 'Beretta',
-      image: '/assets/logo.jpg',
+      image: '/assets/beretta.png',
       prix: 48000
     }
     ];
