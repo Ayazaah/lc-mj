@@ -1,5 +1,4 @@
 import { Routes } from '@angular/router';
-import { AboutPageComponent } from './about-page/about-page.component';
 import { CataloguePageComponent } from './catalogue-page/catalogue-page.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
 import { HomePageComponent } from './home-page/home-page.component';
@@ -10,7 +9,6 @@ import { DocumentationPagComponent } from './documentation-pag/documentation-pag
 
 export const routes: Routes = [
     { path: 'home', component: HomePageComponent },
-    { path: 'about', component: AboutPageComponent},
     { path: 'catalogue', component: CataloguePageComponent},
     { path: 'ppa', component: PpaPageComponent},
     { path: 'standDeTir', component: SdTirPageComponent},
