@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ContactPageComponent } from './contact-page.component';
+import { ContactLcComponent } from './contact-lc.component';
 
-describe('ContactPageComponent', () => {
-  let component: ContactPageComponent;
-  let fixture: ComponentFixture<ContactPageComponent>;
+describe('ContactLcComponent', () => {
+  let component: ContactLcComponent;
+  let fixture: ComponentFixture<ContactLcComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ContactPageComponent]
+      imports: [ContactLcComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ContactPageComponent);
+    fixture = TestBed.createComponent(ContactLcComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

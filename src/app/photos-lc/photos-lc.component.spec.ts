@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SdTirPageComponent } from './sd-tir-page.component';
+import { PhotosLcComponent } from './photos-lc.component';
 
-describe('SdTirPageComponent', () => {
-  let component: SdTirPageComponent;
-  let fixture: ComponentFixture<SdTirPageComponent>;
+describe('PhotosLcComponent', () => {
+  let component: PhotosLcComponent;
+  let fixture: ComponentFixture<PhotosLcComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SdTirPageComponent]
+      imports: [PhotosLcComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SdTirPageComponent);
+    fixture = TestBed.createComponent(PhotosLcComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
