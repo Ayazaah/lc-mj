@@ -1,20 +1,92 @@
-.photographer-section {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 20px;
-
-  img {
-    width: 250px;
-    border-radius: 10px;
-  }
-
-  p {
-    max-width: 300px;
-    color: gray;
-  }
+.header-section {
+  text-align: center;
+  margin-bottom: 85px;
 }
 
-.reverse {
-  flex-direction: row-reverse;
+.header-image {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.header-text {
+  margin-top: 20px;
+}
+
+.header-text h1 {
+  font-weight: bold;
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+
+.header-text p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.photographer-section {
+  display: flex;
+  align-items: flex-start;
+  margin: 10px 100px;
+  max-width: 100vw;
+  /* pour éviter débordement */
+}
+
+.photographer-section img {
+  width: 300px;       /* adapte la taille */
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Texte à côté de l'image */
+.photographer-section > div {
+  padding: 0 20px;
+  max-width: 600px; /* limite la largeur */
+  margin-top: 10px;
+}
+
+/* Premier photographe : photo à gauche collée à gauche */
+.photographer-section {
+  justify-content: flex-start;
+  text-align: left;
+  margin-bottom: 45px;
+}
+
+/* Deuxième photographe en miroir (classe reverse) */
+.photographer-section.reverse {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+/* Pour coller l'image gauche ou droite contre le bord */
+.photographer-section img, .photographer-section.reverse img {
+  /* pour le premier : pas de marge à gauche */
+  margin: 0;
+}
+
+.button-group {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin-bottom: -10px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 0.75rem 2rem;
+  font-size: 20px;
+  border-radius: 30px;
+  color: white;
+  background-color: #5a5b5c;
+  border: none;
+}
+
+.contactName {
+  font-size: 40px;
+  font-weight: bold;
 }

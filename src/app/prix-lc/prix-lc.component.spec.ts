@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AffichesLcComponent } from './affiches-lc.component';
+import { PrixLcComponent } from './prix-lc.component';
 
-describe('AffichesLcComponent', () => {
-  let component: AffichesLcComponent;
-  let fixture: ComponentFixture<AffichesLcComponent>;
+describe('PrixLcComponent', () => {
+  let component: PrixLcComponent;
+  let fixture: ComponentFixture<PrixLcComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [AffichesLcComponent]
+      imports: [PrixLcComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(AffichesLcComponent);
+    fixture = TestBed.createComponent(PrixLcComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PhotosLcComponent } from './photos-lc.component';
+import { ContactMjComponent } from './contact-mj.component';
 
-describe('PhotosLcComponent', () => {
-  let component: PhotosLcComponent;
-  let fixture: ComponentFixture<PhotosLcComponent>;
+describe('ContactMjComponent', () => {
+  let component: ContactMjComponent;
+  let fixture: ComponentFixture<ContactMjComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PhotosLcComponent]
+      imports: [ContactMjComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PhotosLcComponent);
+    fixture = TestBed.createComponent(ContactMjComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

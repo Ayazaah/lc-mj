@@ -1,20 +1,15 @@
 import { Routes } from '@angular/router';
 import { HomePageComponent } from './home-page/home-page.component';
 import { ContactLcComponent } from './contact-lc/contact-lc.component';
-import { PhotosLcComponent } from './photos-lc/photos-lc.component';
-import { AffichesLcComponent } from './affiches-lc/affiches-lc.component';
+import { PrixLcComponent } from './prix-lc/prix-lc.component';
+import { ContactMjComponent } from './contact-mj/contact-mj.component';
+import { CreationsMjComponent } from './creations-mj/creations-mj.component';
 
 export const routes: Routes = [
   { path: '', component: HomePageComponent },
-  //partie studio photo 
-  {
-    path: 'lc',
-    component: ContactLcComponent,
-    children: [
-      { path: 'photographie', component: PhotosLcComponent },
-      { path: 'affiches', component: AffichesLcComponent }
-    ]
-  },
-  //partie agents déco ...
-  { path: '**', redirectTo: '' } 
+  { path: 'lc', component: ContactLcComponent },
+  { path: 'lc-prix', component: PrixLcComponent },
+  { path: 'mj', component: ContactMjComponent },
+  { path: 'mj-creations', component: CreationsMjComponent },
+  { path: '**', redirectTo: '' }
 ];

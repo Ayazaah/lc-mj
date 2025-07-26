@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-contact-lc',
-  imports: [],
+  imports: [RouterOutlet],
   templateUrl: './contact-lc.component.html',
   styleUrl: './contact-lc.component.css'
 })

@@ -1,17 +1,3 @@
-:root {
-  --bg: #ffffff;
-  --text: #000000;
-  --button-bg: #000000;
-  --button-text: #ffffff;
-}
-
-.dark-theme {
-  --bg: #1e1e1e;
-  --text: #f0f0f0;
-  --button-bg: #f0f0f0;
-  --button-text: #000000;
-}
-
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -29,7 +15,6 @@ button {
   cursor: pointer;
 }
 
-/* Header sticky en haut, fond blanc avec ombre légère */
 header.hero {
   position: sticky;
   top: 0;
@@ -41,7 +26,6 @@ header.hero {
   justify-content: center;
 }
 
-/* Navbar centrée avec largeur max */
 .navbar {
   width: 100%;
   max-width: 1200px;
@@ -49,7 +33,6 @@ header.hero {
   justify-content: center;
 }
 
-/* Liste des liens en horizontal */
 .nav-links {
   list-style: none;
   display: flex;
@@ -58,7 +41,6 @@ header.hero {
   padding: 0;
 }
 
-/* Styles des liens */
 .nav-links li a {
   text-decoration: none;
   color: #333;
@@ -76,10 +58,9 @@ header.hero {
   outline: none;
 }
 
-/* Main content avec un peu de marge */
 .main-content {
   padding: 2rem;
-  min-height: 70vh; /* pour que le footer ne soit pas collé */
+  min-height: 70vh;
 }
 
 footer {

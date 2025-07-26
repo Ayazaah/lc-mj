@@ -1,10 +1,9 @@
-<header class="hero">
+<header *ngIf="!hideLayout" class="hero">
   <nav class="navbar">
     <ul class="nav-links">
-      <li><a href="/lc">L.C Studio</a></li>
-      <li><a href="/mj">MJ Corporate</a></li>
+      <li><a routerLink="/lc">L.C Studio</a></li>
+      <li><a routerLink="/mj">MJ Corporate</a></li>
     </ul>
-    
   </nav>
 </header>
 
@@ -12,7 +11,6 @@
   <router-outlet></router-outlet>
 </main>
 
-<footer>
-    &copy; 2025 L.C Studio & MJ Corporate. Tous droits réservés. (Site réalisé par Lexi Campbell)
+<footer *ngIf="!hideLayout">
+  &copy; 2025 L.C Studio & MJ Corporate. Tous droits réservés. (Site réalisé par Lexi Campbell)
 </footer>
-

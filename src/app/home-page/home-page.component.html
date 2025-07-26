@@ -1,10 +1,15 @@
-<div class="intro-container">
-  <div class="image-card" (click)="goToLanding()">
-    <img src="assets/chat.jpg" alt="Photos">
-    <div class="overlay">L.C Studio</div>
-  </div>
-  <div class="image-card" (click)="goToLanding()">
-    <img src="assets/chat.jpg" alt="Déco">
-    <div class="overlay">MJ Corporate</div>
-  </div>
+<div class="container">
+  <a class="image-card" [routerLink]="['/lc']">
+    <img src="assets/chat.jpg" alt="L.C Studio" />
+    <div class="overlay">
+      <span>L.C Studio</span>
+    </div>
+  </a>
+
+  <a class="image-card" [routerLink]="['/mj']">
+    <img src="assets/chat.jpg" alt="MJ Corporate" />
+    <div class="overlay">
+      <span>MJ Corporate</span>
+    </div>
+  </a>
 </div>

@@ -1,27 +1,31 @@
-<div style="padding: 20px; display: flex; justify-content: space-between; align-items: center;">
-  <div>
-    <strong>L.C Studio</strong> | <strong>MJ Corporate</strong>
+<div class="header-section">
+  <img src="assets/chat.jpg" alt="Grande image d'en-tête" class="header-image">
+  <div class="header-text">
+    <h1>L.C Studio</h1>
+    <p>blablabla on décrit l'entreprise</p>
   </div>
-  <button (click)="toggleDarkMode()">🌓 Mode sombre</button>
 </div>
 
 <div class="photographer-section">
-  <img src="assets/photo.jpg" alt="Photo 1">
+  <img src="assets/chat.jpg" alt="Photo 1">
   <div>
-    <strong>bla bla bla info sur le photographe 1 + son contact</strong>
+    <p class="contactName">Chilo Silva</p>
     <p>Body text for whatever you'd like to add more to the subheading.</p>
   </div>
 </div>
 
 <div class="photographer-section reverse">
   <div>
-    <strong>bla bla bla info sur le photographe 2 + son contact</strong>
+    <p class="contactName">Lexi Campbell</p>
     <p>Body text for whatever you'd like to add more to the subheading.</p>
   </div>
-  <img src="assets/photo.jpg" alt="Photo 2">
+  <img src="assets/chat.jpg" alt="Photo 2">
 </div>
 
-<div style="text-align: center; margin-top: 30px;">
-  <button routerLink="/photographie">Photographie</button>
-  <button routerLink="/affiches">Affiches</button>
+<div class="button-group">
+  <a href="/lc-prix" class="btn">Prix des services proposés</a>
+</div>
+
+<div>
+    <router-outlet></router-outlet>
 </div>
