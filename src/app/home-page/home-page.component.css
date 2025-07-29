@@ -1,26 +1,32 @@
 html, body {
   height: 100%;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 60px;
+  gap: 80px; 
+  flex-wrap: wrap; 
+  margin-top: 10%;
 }
 
 .image-card {
   position: relative;
   cursor: pointer;
   overflow: hidden;
-  border-radius: 12px;
-  width: 320px;
-  height: 220px;
+  border-radius: 16px;
+  width: 480px; /* augmenté */
+  height: 320px; /* augmenté */
   text-decoration: none;
   color: white;
   font-family: Arial, sans-serif;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
   transition: transform 0.3s ease;
 }
 
@@ -46,23 +52,20 @@ html, body {
   left: 0;
   width: 100%;
   height: 100%;
-
   background-color: rgba(0, 0, 0, 0);
   display: flex;
   justify-content: center;
   align-items: center;
-
   transition: background-color 0.3s ease;
   pointer-events: none;
 }
 
 .image-card:hover .overlay {
   background-color: rgba(0, 0, 0, 0.5);
-  pointer-events: auto;
 }
 
 .overlay span {
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 700;
   opacity: 0;
   transition: opacity 0.3s ease;
